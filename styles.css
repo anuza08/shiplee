@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  position: relative;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  overflow: hidden;
+}
+
+.hero-text-heading {
+  font-size: 4rem;
+}
+
+.hero-text p {
+  margin: 6% 0;
+  font-weight: bold;
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  max-width: 1200px;
+  width: 100%;
+  gap: 2rem;
+}
+
+.hero-text {
+  flex: 1;
+  margin-left: 8%;
+  margin-bottom: 10%;
+}
+
+.hero-image {
+  flex: 1;
+  max-width: 50%;
+}
+
+.hero-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  z-index: 0;
+  object-fit: cover;
+}
+
+.cta-button {
+  background: #ffd700;
+  color: #00509e;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #ffa500;
+}
+
+.partner-grid img {
+  width: 100px;
+  transition: transform 0.3s;
+}
+
+.partner-grid img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+}
+
+.why-choose {
+  margin-top: 10%;
+}
+
+.why-choose h1 {
+  text-align: center;
+  color: grey;
+  font-size: 2rem;
+}
+
+.why-choose p {
+  text-align: center;
+  color: grey;
+  margin: 1% 0;
+}
+
+.feature-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  margin: 5% auto;
+  justify-content: center;
+}
+
+.feature-block {
+  background-color: #ffffff;
+  border: none; /* Remove border */
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Light gray shadow */
+  flex: 1 1 calc(33.33% - 2rem); /* 3 blocks per row */
+  max-width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-block:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.network {
+  background-color: #6234e1;
+  height: 40%;
+}
+
+.feature-block h3 {
+  margin-bottom: 0.5rem;
+  color: #6234e1;
+  text-align: center;
+}
+
+.feature-block p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+}
+.network {
+  background-color: #6234e1;
+  padding: 2rem;
+  color: white;
+}
+
+.network-content {
+  display: flex; /* Arrange image and text in a row */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.network-img img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.network-text {
+  font-size: 2.5rem;
+  color: white;
+  margin-left: 5rem;
+}
